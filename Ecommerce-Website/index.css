@@ -1,0 +1,74 @@
+body{
+  background: url("fundal_meniu.jpg");
+  background-size: 100%;
+	font-family: Arial, verdana, "sans-serif";
+  max-width: 100%;
+
+}
+.print-area{
+  margin-left: 70px;
+  margin-right: 70px;
+ }
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+.title {
+  font-family: "Cairo";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height:2
+}
+
+h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 100px;
+  margin: 10px 0;
+}
+
+.buton{ 
+  background-color: #e4c19ed6; 
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ } 
+  
+ h2 {
+   color: black;
+   font-size: 50px;
+ }
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
+}
+
+

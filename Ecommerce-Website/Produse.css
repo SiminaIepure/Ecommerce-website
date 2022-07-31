@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+}
+
+.produse{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.produs{
+    margin-top: 10px;
+    width: 280px;
+    flex-direction: column;
+    background: rgb(180, 69, 106);
+    padding: 15px;
+    position: relative;
+    box-sizing:border-box;
+    height:300px;
+    margin-left: 120px;
+    border-radius: 4px;
+    
+    content-visibility: 100;
+}
+.pagina{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(25rem, 1fr));
+    background-color: rgb(255, 255, 255);
+    column-gap: 0.4rem;
+    row-gap: 0.6rem;
+    padding: 2rem;
+    margin: 2;
+    max-width: 100rem;
+
+}
+.produs img{
+    width: 100px;
+    height: 100px;
+}

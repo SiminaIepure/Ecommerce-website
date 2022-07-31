@@ -1,0 +1,58 @@
+.footer {
+  
+    background-color: rgb(0, 0, 0);
+  }
+  
+  
+  .social {
+    background-color: white;
+  }
+  
+  .nav-secondary__wrapper {
+    max-width: 1120px;
+    margin-left: 80%;
+  }
+  
+  .nav-secondary__content {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    clear: both;
+  }
+  
+  .nav-secondary__item {
+    float: left;
+  }
+  
+  .nav-secondary__link {
+    display: block;
+    padding: 20px 24px;
+    color: rgb(254, 254, 254);
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav-secondary__link:hover {
+    color: #a67ee7;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .related__content {
+      display: block;
+    }
+  
+    .related__item {
+      margin: 20px 5px;
+    }
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
